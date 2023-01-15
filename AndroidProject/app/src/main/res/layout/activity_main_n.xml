@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".rActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="3dp"
+        >
+
+        <ImageView
+            android:id="@+id/current_weather"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/images"></ImageView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:fontFamily="monospace"
+            android:text="Today's Goal"
+            android:textSize="35dp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="3dp"
+        >
+
+        <EditText
+            android:id="@+id/goal"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="4"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:hint="Number of steps"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/goalButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Enter"
+            android:fontFamily="monospace"></Button>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="15dp"
+        android:progressBackgroundTint="#121111"
+        android:progressTint="#b71c1c"
+        android:max="100"
+        android:progress="20"
+        android:visibility="invisible" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="25"
+            android:textSize="15dp"
+            android:id="@+id/stepsTaken"
+            android:text="0"
+            android:fontFamily="monospace"
+            android:textAlignment="textEnd"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="/"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="25"
+            android:textSize="15dp"
+            android:textAlignment="textStart"
+            android:id="@+id/TotalSteps"
+            android:fontFamily="monospace"
+            android:text="5000"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/trackListView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_margin="32dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/calStatement"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_weight="1">
+        </TextView>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/currcalStatement"
+        android:textAlignment="center"
+        android:textSize="20dp">
+    </TextView>
+
+</LinearLayout>

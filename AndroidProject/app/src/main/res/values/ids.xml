@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="challengeDate" type="id" />
+    <item name="challengeName" type="id" />
+    <item name="challengeReps" type="id" />
+    <item name="countExerciseCompleted" type="id" />
+</resources>

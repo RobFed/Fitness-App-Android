@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">My Fitness Assistant</string>
+    <string name="sectionTitle">Spot Challenge</string>
+    <string name="exercisesDatabaseActivityTitle">Exercises Database</string>
+    <string name="challengeCompletedButtonText">Challenge Completed</string>
+    <string name="challengesHistoryButtonText">History of Completed Challenges</string>
+    <string name="randomChallengeButtonText">New Random Challenge</string>
+    <string name="pickChallengeButtonText">Pick Challenge</string>
+    <string name="editChallengesDatabaseButtonText">Edit the Database of Challenges</string>
+    <string name="addExerciseButtonText">Add Custom Exercise</string>
+    <string name="removeExerciseButtonText">Remove Exercise</string>
+    <string name="restoreDatabaseButtonText">Restore Original Exercise Database</string>
+    <string name="addExerciseActivityTitle">Add Exercise</string>
+    <string name="repsPromptMessage">Enter the number of reps or the amount of time for which to perform the exercise:</string>
+    <string name="exerciseNamePromptMessage">Enter the name of the exercise:</string>
+    <string name="repsEditTextHint">Example: "20" OR "30 seconds"</string>
+    <string name="exerciseNameEditTextHint">Example: "Pushups"</string>
+    <string name="addButtonText">Add Exercise to Database</string>
+    <string name="removeExerciseActivityTitle">Remove Exercise</string>
+    <string name="removeExercisePromptMessage">Select the exercise you would like to remove from the database:</string>
+    <string name="completedChallengesTitle">Completed Challenges</string>
+    <string name="extraInfoPrompt">Select any entry to see additional information: </string>
+    <string name="clearHistoryButtonText">Clear History</string>
+    <string name="CompletedChallengeInformationTitle">Challenge Information</string>
+    <string name="deleteCompletedChallengeButtonText">Delete</string>
+    <string name="removeExerciseConfirmationMessage">Are you sure you want to delete this exercise?</string>
+    <string name="removeExerciseConfirmationTitle">Delete</string>
+    <string name="yesOption">Yes</string>
+    <string name="noOption">No</string>
+    <string name="removeHistoryItemConfirmationMessage">Are you sure you want to delete this completed challenge?</string>
+    <string name="restoreOriginalDatabaseConfirmationMessage">Are you sure you want to restore the original database of exercises?</string>
+    <string name="restoreOriginalDatabaseConfirmationTitle">Restore Database</string>
+    <string name="exerciseDeletedToast">The selected exercise has been deleted.</string>
+    <string name="exerciseAddedToast">The exercise has been added to the database.</string>
+    <string name="originalExerciseListRestoredToast">The original database of exercises has been restored.</string>
+    <string name="challengeCompletedSnackbar">Congratulations on completing this challenge!</string>
+    <string name="historyClearedToast">Your history of completed challenges has been cleared.</string>
+    <string name="challengeDateText">Date completed (dd/mm/yyyy): </string>
+    <string name="challengeNameText">Exercise name: </string>
+    <string name="challengeRepsText">Number of reps/time: </string>
+    <string name="countChallengesOnDateText">Number of challenges you have completed on this date: </string>
+    <string name="countExerciseCompletedText">Number of times you have completed this exercise: </string>
+    <string name="trackerButton">Tracker</string>
+    <string name="challengeButton">Challenge</string>
+    <string name="logoutButton">Log out</string>
+    <string name="creditButton">Credits</string>
+
+    <item name="countChallengesOnDate" type="id" />
+</resources>

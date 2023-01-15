@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".rActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sectionTitle"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_500"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:id="@+id/titleTextView"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:id="@+id/repsTextView"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:id="@+id/exerciseTextView"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/randomChallengeButtonText"
+        android:layout_marginTop="40dp"
+        android:onClick="randomChallengeClicked"
+        android:id="@+id/randomChallengeButton"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/challengeCompletedButtonText"
+
+        android:onClick="challengeCompletedClicked"
+        android:id="@+id/challengeCompletedButton"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/challengesHistoryButtonText"
+        android:onClick="challengesHistoryClicked"
+        android:id="@+id/challengesHistoryButton"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/editChallengesDatabaseButtonText"
+        android:onClick="editChallengesDatabaseClicked"
+        android:id="@+id/editChallengesDatabaseButton"/>
+
+</LinearLayout>
